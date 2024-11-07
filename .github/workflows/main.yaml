@@ -13,8 +13,8 @@ permissions:
 # schedule and cron make it run at certain frequencies
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 */2 * * *'
+  # schedule:
+  # cron: '0 */2 * * *'
 jobs:
   daily:
     runs-on: ubuntu-latest
